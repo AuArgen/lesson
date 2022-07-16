@@ -164,14 +164,13 @@ h1 {
 }
 
 h1::before {
-    left: -5px;
-    top: 30%;
+    left: -30px;
+    top: 10px;
     position: absolute;
-    content: "*";
-    color: yellow;
-    font-size: 28px;
-    /* width: 10px;
-    height: 10px;
+    content: "";
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    background: rgb(179, 12, 12); */
+    background:url(https://png.pngtree.com/png-clipart/20220218/ourmid/pngtree-elegant-green-check-mark-icon-png-image_4395249.png);
+    background-size: cover;
 }
