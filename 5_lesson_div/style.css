@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,59 +8,38 @@ body {
     background: gray;
 }
 
-div {
-    background: #adff2f;
-    min-height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-div a {
-    margin-left: 100px;
-    background: rgb(6, 89, 128);
-    border: 1px solid white;
-    min-width: 100px;
-    height: 30px;
-    text-align: center;
-    font-size: 20px;
-    color: white;
+.div1 {
+    width: 100%;
+    background: teal;
+    height: 500px;
 }
 
-.main {
+.div1 .div1_in_div1 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+}
+
+.div1 .div1_in_div1 img {
+    width: 300px;
+}
+
+
+.div2 .in_div2 {
+    width: 600px;
+    border: 1px solid teal;
     background: white;
-    display: flex;
-    align-items: flex-start;
-    min-height: 100px;
-}
-.main .mainDiv1 {
-    display: block;
-    width: 20%;
-    background: orange;
-    min-height: 600px;
+    height: 500px;
+    float: left;
 }
 
-.main .mainDiv1 a{
-    margin-left: 0px;
+.div2 .in_div2 .in_in_div2 {
+    width: 260px;
+    float: left;
+    margin: 10px;
 }
-
-.main .mainDiv2 {
-    display: block;
-    width: 60%;
-    background: rgb(153, 104, 14);
-    min-height: 600px;
+.div2 .in_div2 .in_in_div2 img {
+    width: 260px;
+    float: left;
 }
-
-.main .mainDiv3 {
-    display: block;
-    width: 20%;
-    background: orange;
-    min-height: 600px;
-}
- .main .mainDiv3 h1 {
-     text-align: center;
-     color: white;
- }
-
- .main .mainDiv3 img {
-     width: 100%;
- }
